@@ -3,3 +3,131 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: rgb(0, 0, 133);
+    padding: 30px;
+}
+
+footer {
+    background-color: rgb(36, 39, 42);
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+}
+
+section {
+    padding: 30px;
+}
+
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.background-grey {
+    background-color: rgb(211, 211, 211);
+}
+
+/* .navbar {
+    width: 920px;
+    margin: auto;
+    background-color: rgb(210, 167, 65);
+}
+
+nav .navbar {
+    display: flex;
+}
+
+.cola {
+    border: 1px solid black;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.logo {
+    padding-left: 5px;
+    padding-right: 6rem;
+}
+
+.login {
+    padding-right: 5px;
+    padding-left: 6rem;
+}
+
+.col-list {
+    flex-grow: 1;
+}
+
+.col-list ul {
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
+}
+
+.col-list a{
+    text-decoration: none;
+    text-align: center;
+} */
+
+.container-small {
+    width: 720px;
+    padding: 100px;
+    background-color: rgb(224, 135, 232);
+    border: 2px dashed black;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding:150px;
+    background-color: rgb(245, 194, 203);
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.col-blue {
+    flex-basis: 60%;
+    background-color: rgb(69, 142, 247);
+}
+
+.container-green {
+    background-color: rgb(69, 137, 51);
+    padding: 200px;
+    border: 2px dashed black;
+}
+
+.footrow {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.footcol {
+    padding: 150px 30px;
+    background-color: rgb(85, 175, 169);
+    flex-grow: 1;
+    border: 2px dashed white;
+}
+
+.footcol-pink {
+    flex-grow:2;
+    background-color: rgb(225, 134, 131);
+    border: 2px dashed black;
+}
+
+.footrow-end {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(160, 252, 214);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footrow-end .end {
+    border: 2px dashed black;
+    padding: 5px 5px;
+    background-color: rgb(225, 134, 131);
+}
