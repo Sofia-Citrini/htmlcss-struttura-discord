@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+nav {
+    background-color: rgb(182, 215, 228);
+    padding: 10px;
+}
+
 header {
     background-color: rgb(0, 0, 133);
     padding: 30px;
@@ -28,31 +33,44 @@ section {
     background-color: rgb(211, 211, 211);
 }
 
-/* .navbar {
-    width: 920px;
-    margin: auto;
+.container .navbar {
+    display: flex;
     background-color: rgb(210, 167, 65);
 }
 
-nav .navbar {
-    display: flex;
+div[class=-nav] {
+    padding: 5px;
 }
 
-.cola {
-    border: 1px solid black;
-    height: 100%;
-    padding: 10px 0;
-}
-
-.logo {
+.nav-logo {
     padding-left: 5px;
     padding-right: 6rem;
+    border: 2px dashed black;
 }
 
-.login {
+.nav-login {
     padding-right: 5px;
     padding-left: 6rem;
+    border: 2px dashed black;
 }
+
+.nav-link {
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.nav-link ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.nav-link ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 
 
 .col-list {
     flex-grow: 1;
