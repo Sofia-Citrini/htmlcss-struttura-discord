@@ -70,23 +70,6 @@ div[class=-nav] {
     color: black;
 }
 
-/* 
-
-.col-list {
-    flex-grow: 1;
-}
-
-.col-list ul {
-    display: flex;
-    list-style: none;
-    column-gap: 1rem;
-}
-
-.col-list a{
-    text-decoration: none;
-    text-align: center;
-} */
-
 .container-small {
     width: 720px;
     padding: 100px;
